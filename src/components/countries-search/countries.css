@@ -1,0 +1,28 @@
+.country-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width:603px;
+    cursor: pointer;
+    height: 40px;
+    border-left:2px solid black;
+    border-right: 2px solid black;
+}
+.country-container:hover {
+    background-color: #ccf2f9;
+}
+.country-container img{
+    margin-left:10px
+}
+.country-container:last-child{
+    border-bottom: 2px solid black;
+}
+.country-name {
+    margin-left:10px
+}
+.search-bar {
+    width:600px;
+    height: 20px;
+
+}
